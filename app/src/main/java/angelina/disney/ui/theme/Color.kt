@@ -7,6 +7,6 @@ val White = Color(0xFFFFFFFF)
 val Pink80 = Color(0xFFEFB8C8)
 
 val ButtonColor = Color(0xFF8E97FD)
-val Purple40 = Color(0xFF8E72DB)
+val Purple40 = Color(0xFF03174C)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)

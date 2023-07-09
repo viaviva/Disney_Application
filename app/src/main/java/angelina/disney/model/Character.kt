@@ -1,21 +1,11 @@
 package angelina.disney.model
 
-import angelina.disney.R
-
 data class Character(
+    val id: Int,
+    val imageUrl: String,
     val name: String,
-    val image: Int,
-)
-
-val listOfCharacter = listOf<Character>(
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image),
-    Character("Rapuncel", R.drawable.character_image)
+    val films: List<String>,
+    val shortFilms: List<String>,
+    val tvShows: List<String>,
+    val videoGames: List<String>
 )
